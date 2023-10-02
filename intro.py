@@ -25,4 +25,5 @@ try:
 except:
     print('Please enter the correct temperature')
 
-
+a = "Python is cool"
+print(a[7:])
