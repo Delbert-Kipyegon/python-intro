@@ -84,6 +84,14 @@ for letter in range(97, 123):
 
 
 
+# Get user input and assign to variable var
+var = int(input("Enter an integer: "))
+
+# Check whether var is divisible by 5 or not
+if var % 5 == 0:
+    print(f'{var} is divisible by 5')
+else:
+    print(f'{var} is not divisible by 5')
 
 
 
